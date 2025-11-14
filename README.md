@@ -85,3 +85,14 @@ fix stuff
 final version
 
 ```
+**Ejemplo diagrama (GitHub Flow):**
+
+```
+main ──●──────────●──────────●───────────▶
+         \         \          \
+          \         \          \── PR ── merge
+           \         \── PR ── merge
+            \── PR ── merge
+           feature/* branches
+
+```
